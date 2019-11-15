@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    file_list = Dir.entries(@path)
+    file_list = Dir.entries(@path).grep(/.+\.mp3\b/)
     binding.pry
   end
   
