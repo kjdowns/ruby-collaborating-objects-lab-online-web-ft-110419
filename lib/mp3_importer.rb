@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    file_list = Dir.new(@path)
+    file_list = Dir[@path]
   end
   
   def import 
