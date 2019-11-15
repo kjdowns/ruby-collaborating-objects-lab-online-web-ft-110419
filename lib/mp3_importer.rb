@@ -11,7 +11,8 @@ class MP3Importer
     file_list = Dir.entries(@path).grep(/.+\.mp3\b/)
   end
   
-  def import 
+  def import
+    self.files.each {|file| }
   end
   
 end
