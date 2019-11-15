@@ -8,8 +8,8 @@ class MP3Importer
   end
   
   def files
-    binding.pry
     file_list = Dir.entries(@path)
+    binding.pry
   end
   
   def import 
