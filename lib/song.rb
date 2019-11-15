@@ -19,10 +19,10 @@ class Song
   end
   
   def self.new_by_filename(filename)
-    binding.pry
     file_string = filename.split(" - ")
     artist_name = file_string[0]
     song_name = file_string[1]
+    binding.pry
   end
   
 end
