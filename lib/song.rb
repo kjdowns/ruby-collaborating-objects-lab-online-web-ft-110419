@@ -22,7 +22,8 @@ class Song
     file_string = filename.split(" - ")
     artist_name = file_string[0]
     song_name = file_string[1]
-    binding.pry
+    new_song = Song.new(song_name)
+    new_song.artist_name = artist_name
   end
   
 end
