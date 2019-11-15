@@ -24,6 +24,7 @@ class Song
     song_name = file_string[1]
     new_song = Song.new(song_name)
     new_song.artist_name = artist_name
+    new_song
   end
   
 end
