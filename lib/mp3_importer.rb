@@ -8,6 +8,7 @@ class MP3Importer
   end
   
   def files
+    file_list = @path.glob()
   end
   
   def import 
